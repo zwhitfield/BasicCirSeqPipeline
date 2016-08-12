@@ -1,22 +1,18 @@
 # BasicCirSeqPipeline
-Running CirSeqPipeline.sh
+Running CirSeqPipeline_public.sh
 
 Need to set up two directories:
 
 SCRIPTDIRECTORY: A single folder containing all of the necessary scripts.
 
-	CirSeqPipeline.sh
+	CirSeqPipeline_public.sh
+	AverageCoverage_bash.py
 	GraphFragmentLengthDistribution_bash.R
 	IdentifyVariantFrequency_bash_v2.py
 	CombineQ20FreqsByPassage_bash.py
-	TranslateQ20_bash_v2.py
-	MaximumLikelihoodEstimation_Q20_Zach.R
-	VariantByGenPos_bash.R
-	FitnessODR_bash_v2.py
-	GraphFitnessODR_bash.R
 
 ----------------------------------------------------------------------------------------------------------------------------------
-TOPDIRECTORY: Location of directory that leads to Q20threshold.txt and FragmenLengthDistribution.txt files. See below.
+TOPDIRECTORY: Partial directory that leads to Q20threshold.txt and FragmenLengthDistribution.txt files. See below.
 
 	Data MUST be organized in the following way:
 		[TOPDIRECTORY]/CirSeq[SAMPLENAME]/p[PassageNumber]/Q20threshold.txt
